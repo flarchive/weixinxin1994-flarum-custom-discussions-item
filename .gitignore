@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Build files
+js/dist/
+less/forum.css
+less/admin.css
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Cache
+storage/cache/
+storage/sessions/
+storage/views/
+
+# Test files
+tests/integration/install/

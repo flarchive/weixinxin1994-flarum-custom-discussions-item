@@ -1,0 +1,67 @@
+{
+    "name": "weixinxin1994/flarum-custom-discussions-item",
+    "description": "Enhanced Discussions List Item for Flarum - Add author avatars, likes count, and reply user avatars",
+    "keywords": [
+        "flarum", "extension", "discussions", "item", "avatar", "likes", "replies"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "homepage": "https://github.com/Weixinxin1994/flarum-custom-discussions-item",
+    "support": {
+        "issues": "https://github.com/Weixinxin1994/flarum-custom-discussions-item/issues",
+        "source": "https://github.com/Weixinxin1994/flarum-custom-discussions-item"
+    },
+    "require": {
+        "flarum/core": "^1.0.0",
+        "afrux/forum-widgets-core": "^0.1.7"
+    },
+    "require-dev": {
+        "flarum/testing": "^1.0.0"
+    },
+    "authors": [
+        {
+            "name": "Weixin",
+            "email": "903386832@qq.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Custom\\DiscussionsItem\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Custom\\DiscussionsItem\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "0.1.x-dev"
+        },
+        "flarum-extension": {
+            "title": "Discussions Item",
+            "category": "forum-widget",
+            "icon": {
+                "name": "fas fa-images",
+                "backgroundColor": "#4a90e2",
+                "color": "#fff"
+            }
+        }
+    },
+    "scripts": {
+        "test": [
+            "@test:unit",
+            "@test:integration"
+        ],
+        "test:unit": "phpunit -c tests/phpunit.unit.xml",
+        "test:integration": "phpunit -c tests/phpunit.integration.xml",
+        "test:setup": "@php tests/integration/setup.php"
+    },
+    "scripts-descriptions": {
+        "test": "Runs all tests.",
+        "test:unit": "Runs all unit tests.",
+        "test:integration": "Runs all integration tests.",
+        "test:setup": "Sets up a database for use with integration tests. Execute this only once."
+    }
+}
