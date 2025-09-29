@@ -1,0 +1,38 @@
+custom-discussions-item:
+  forum:
+    recent_replies: 最近回帖
+    more_replies: 还有 {count} 个回帖用户
+    loading_replies: 加载中...
+    no_replies: 暂无回帖
+    author: 作者
+    likes: 点赞
+    likes_count: "{count} 个赞"
+    reply_users: 回帖用户
+    view_all_replies: 查看所有回帖
+    
+  admin:
+    title: 讨论列表项增强设置
+    description: 为讨论列表添加作者头像、点赞数和回帖用户头像显示
+    enable_author_avatar: 显示作者头像
+    enable_author_avatar_help: 在讨论列表中显示讨论作者的头像和姓名
+    enable_likes_count: 显示点赞数
+    enable_likes_count_help: 在讨论列表中显示该讨论的总点赞数
+    enable_reply_avatars: 显示回帖用户头像
+    enable_reply_avatars_help: 在讨论列表中显示最近回帖用户的头像
+    max_reply_avatars: 最大回帖头像数量
+    max_reply_avatars_help: 设置显示的回帖用户头像数量（1-10个）
+    avatar_size: 头像大小
+    avatar_size_help: 设置头像的显示大小（像素）
+    show_loading_state: 显示加载状态
+    show_loading_state_help: 在数据加载时显示加载提示
+    performance_mode: 性能模式
+    performance_mode_help: 启用后使用序列化器直接包含数据，提高性能
+    save_settings: 保存设置
+    settings_saved: 设置保存成功
+    save_error: 保存失败，请重试
+    reset_settings: 重置设置
+    reset_confirm: 确定要重置所有设置吗？
+    basic_settings: 基础设置
+    display_settings: 显示设置
+    performance_settings: 性能设置
+    appearance_settings: 外观设置

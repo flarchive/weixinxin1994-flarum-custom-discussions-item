@@ -1,0 +1,353 @@
+.CarouselSettingsModal {
+  .carousel-items {
+    margin-top: 20px;
+    border-top: 1px solid #e5e5e5;
+    padding-top: 20px;
+  }
+
+  .carousel-item-form {
+    background: #f8f9fa;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+
+    h5 {
+      margin: 0 0 15px 0;
+      color: #333;
+      font-size: 1.1em;
+      font-weight: 600;
+    }
+
+    .Form-group {
+      margin-bottom: 15px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: 500;
+        color: #555;
+      }
+
+      .FormControl {
+        width: 100%;
+        padding: 8px 12px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: border-color 0.3s ease;
+
+        &:focus {
+          outline: none;
+          border-color: #4a90e2;
+          box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.2);
+        }
+      }
+
+      textarea.FormControl {
+        resize: vertical;
+        min-height: 80px;
+      }
+
+      .helpText {
+        display: block;
+        margin-top: 5px;
+        font-size: 12px;
+        color: #666;
+      }
+
+      input[type="checkbox"] {
+        margin-right: 8px;
+        transform: scale(1.1);
+      }
+
+      input[type="number"] {
+        width: 100px;
+      }
+    }
+  }
+
+  .Form-group {
+    margin-bottom: 20px;
+
+    label {
+      display: flex;
+      align-items: center;
+      font-weight: 500;
+      color: #555;
+      cursor: pointer;
+
+      input[type="checkbox"] {
+        margin-right: 8px;
+        transform: scale(1.1);
+      }
+    }
+
+    .FormControl {
+      width: 100%;
+      padding: 8px 12px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      font-size: 14px;
+      transition: border-color 0.3s ease;
+
+      &:focus {
+        outline: none;
+        border-color: #4a90e2;
+        box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.2);
+      }
+    }
+
+    .helpText {
+      display: block;
+      margin-top: 5px;
+      font-size: 12px;
+      color: #666;
+    }
+  }
+
+  .Modal-footer {
+    border-top: 1px solid #e5e5e5;
+    padding: 20px;
+    background: #f8f9fa;
+
+    .Button {
+      padding: 10px 20px;
+      font-size: 14px;
+      font-weight: 500;
+      border-radius: 4px;
+      transition: all 0.3s ease;
+
+      &.Button--primary {
+        background: #4a90e2;
+        border-color: #4a90e2;
+        color: white;
+
+        &:hover {
+          background: #357abd;
+          border-color: #357abd;
+        }
+      }
+    }
+  }
+
+  // 响应式设计
+  @media (max-width: 768px) {
+    .carousel-item-form {
+      padding: 15px;
+    }
+
+    .Form-group {
+      .FormControl {
+        font-size: 16px; // 防止iOS缩放
+      }
+    }
+  }
+}
+
+// SimpleWidgetEditor 样式
+.SimpleWidgetEditor {
+  .SimpleWidgetEditor-header {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e5e5e5;
+
+    h3 {
+      margin: 0 0 10px 0;
+      color: #333;
+      font-size: 1.5em;
+      font-weight: 600;
+    }
+
+    .helpText {
+      margin: 0;
+      color: #666;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+  }
+
+  .SimpleWidgetEditor-content {
+    .SimpleWidgetEditor-section {
+      background: #f8f9fa;
+      border: 1px solid #e5e5e5;
+      border-radius: 8px;
+      padding: 25px;
+      margin-bottom: 25px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      h4 {
+        margin: 0 0 20px 0;
+        color: #333;
+        font-size: 1.2em;
+        font-weight: 600;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #ddd;
+      }
+
+      .Form-group {
+        margin-bottom: 20px;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+
+        label {
+          display: block;
+          margin-bottom: 8px;
+          font-weight: 500;
+          color: #555;
+          font-size: 14px;
+        }
+
+        .FormControl {
+          width: 100%;
+          padding: 10px 12px;
+          border: 1px solid #ddd;
+          border-radius: 4px;
+          font-size: 14px;
+          transition: border-color 0.3s ease, box-shadow 0.3s ease;
+
+          &:focus {
+            outline: none;
+            border-color: #4a90e2;
+            box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.2);
+          }
+        }
+
+        .helpText {
+          display: block;
+          margin-top: 5px;
+          font-size: 12px;
+          color: #666;
+          line-height: 1.4;
+        }
+
+        .Checkbox {
+          display: flex;
+          align-items: flex-start;
+          margin-bottom: 8px;
+
+          input[type="checkbox"] {
+            margin-right: 10px;
+            margin-top: 2px;
+            transform: scale(1.1);
+            cursor: pointer;
+          }
+
+          label {
+            margin: 0;
+            cursor: pointer;
+            font-weight: 500;
+            color: #555;
+            line-height: 1.4;
+          }
+        }
+
+        input[type="number"] {
+          width: 120px;
+        }
+
+        input[type="text"] {
+          width: 200px;
+        }
+      }
+
+      .Button {
+        padding: 12px 24px;
+        font-size: 14px;
+        font-weight: 500;
+        border-radius: 4px;
+        transition: all 0.3s ease;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+
+        &.Button--primary {
+          background: #4a90e2;
+          border-color: #4a90e2;
+          color: white;
+
+          &:hover {
+            background: #357abd;
+            border-color: #357abd;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(74, 144, 226, 0.3);
+          }
+        }
+
+        &.Button--block {
+          width: 100%;
+          justify-content: center;
+          padding: 15px 24px;
+          font-size: 16px;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+
+  .SimpleWidgetEditor-actions {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #e5e5e5;
+
+    .Button {
+      padding: 15px 30px;
+      font-size: 16px;
+      font-weight: 600;
+      border-radius: 6px;
+      transition: all 0.3s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      width: 100%;
+
+      &.Button--primary {
+        background: #28a745;
+        border-color: #28a745;
+        color: white;
+
+        &:hover {
+          background: #218838;
+          border-color: #1e7e34;
+          transform: translateY(-2px);
+          box-shadow: 0 6px 12px rgba(40, 167, 69, 0.3);
+        }
+
+        &:active {
+          transform: translateY(0);
+          box-shadow: 0 2px 4px rgba(40, 167, 69, 0.3);
+        }
+      }
+    }
+  }
+
+  // 响应式设计
+  @media (max-width: 768px) {
+    .SimpleWidgetEditor-content {
+      .SimpleWidgetEditor-section {
+        padding: 20px;
+
+        .Form-group {
+          .FormControl {
+            font-size: 16px; // 防止iOS缩放
+          }
+
+          input[type="number"],
+          input[type="text"] {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+custom-discussions-item:
+  forum:
+    recent_replies: Recent Replies
+    more_replies: "+{count} more users"
+    loading_replies: Loading...
+    no_replies: No replies yet
+    author: Author
+    likes: Likes
+    likes_count: "{count} likes"
+    reply_users: Reply Users
+    view_all_replies: View all replies
+    
+  admin:
+    title: Discussion List Item Enhancement Settings
+    description: Add author avatar, likes count, and reply user avatars to discussion lists
+    enable_author_avatar: Show Author Avatar
+    enable_author_avatar_help: Display the discussion author's avatar and name in the discussion list
+    enable_likes_count: Show Likes Count
+    enable_likes_count_help: Display the total number of likes for each discussion
+    enable_reply_avatars: Show Reply User Avatars
+    enable_reply_avatars_help: Display avatars of recent reply users in the discussion list
+    max_reply_avatars: Max Reply Avatars
+    max_reply_avatars_help: Set the maximum number of reply user avatars to display (1-10)
+    avatar_size: Avatar Size
+    avatar_size_help: Set the display size of avatars in pixels
+    show_loading_state: Show Loading State
+    show_loading_state_help: Display loading indicators when data is being fetched
+    performance_mode: Performance Mode
+    performance_mode_help: Enable to use serializer to include data directly, improving performance
+    save_settings: Save Settings
+    settings_saved: Settings saved successfully
+    save_error: Save failed, please try again
+    reset_settings: Reset Settings
+    reset_confirm: Are you sure you want to reset all settings?
+    basic_settings: Basic Settings
+    display_settings: Display Settings
+    performance_settings: Performance Settings
+    appearance_settings: Appearance Settings
