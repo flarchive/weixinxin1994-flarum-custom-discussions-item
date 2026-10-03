@@ -2,13 +2,14 @@
 
 > **Read-only archive of released versions of weixinxin1994/flarum-custom-discussions-item.** Not for installation: use [Packagist](https://packagist.org/packages/weixinxin1994/flarum-custom-discussions-item) or the [upstream repository](https://github.com/Weixinxin1994/flarum-custom-discussions-item).
 
-**0** versions archived · Latest: [`v1.0.1`](https://github.com/flarchive/weixinxin1994-flarum-custom-discussions-item/tree/archive/v1.0.1) · License: `MIT` · Flarum: `^1.0.0`
+**2** versions archived · Latest: [`v1.0.1`](https://github.com/flarchive/weixinxin1994-flarum-custom-discussions-item/tree/archive/v1.0.1) · License: `MIT` · Flarum: `^1.0.0`
 
 ## Archived Versions
 
 | Version | Released | Flarum | Source |
 |---|---|---|---|
-| — | — | — | — |
+| `v1.0.0` | 2025-09-29 | `^1.0.0` | [Browse](https://github.com/flarchive/weixinxin1994-flarum-custom-discussions-item/tree/archive/v1.0.0) |
+| `v1.0.1` | 2025-09-29 | `^1.0.0` | [Browse](https://github.com/flarchive/weixinxin1994-flarum-custom-discussions-item/tree/archive/v1.0.1) |
 
 Catalog entry: [packages/weixinxin1994-flarum-custom-discussions-item.json](https://github.com/flarchive/archive-index/blob/main/packages/weixinxin1994-flarum-custom-discussions-item.json)
 
